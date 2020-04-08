@@ -491,7 +491,7 @@ re.match只匹配字符串的开始，如果字符串开始不符合正则表达
 
 **注意**： match 和 search 是匹配一次 findall 匹配所有。\
 语法格式为：\
-`findall(string[, pos[, endpos]])`\
+`findall(string[, pos[, endpos]])`
 
 |参数|参数描述|
 |:---:|:---:|
