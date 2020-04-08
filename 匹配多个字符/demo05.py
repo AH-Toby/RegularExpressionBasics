@@ -2,7 +2,7 @@
 import re
 
 email = 'hello@163.com'
-result = re.match(r'.{4,20}@', email)
+result = re.match(r'[^@]*', email)
 
 print(result.group())
 
